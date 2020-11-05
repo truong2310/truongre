@@ -9,6 +9,6 @@
         name: loopback {{ item.name}}
         ipv4: 10.0. {{ item.number}}.1/24
       with items:
-	-{item.number; 2}
-	-{item.number: 3}
-	-{item.number: 4}
+          - {item.number: 2}
+          - {item.number: 3}
+          - {item.number: 4}
